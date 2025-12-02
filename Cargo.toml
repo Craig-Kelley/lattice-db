@@ -7,7 +7,7 @@ description = """
 A high-performance, embedded graph database optimized for fast set-based search.
 Built on Roaring Bitmaps and Redb for instant lookups and efficient storage.
 """
-licence = "MIT"
+license = "MIT"
 repository = "https://github.com/Craig-Kelley/lattice-db"
 readme = "README.md"
 keywords = [
