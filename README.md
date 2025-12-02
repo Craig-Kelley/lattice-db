@@ -1,0 +1,1 @@
+A simple graph database. Offers microsecond lookup times for complex queries.

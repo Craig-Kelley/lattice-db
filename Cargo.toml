@@ -1,0 +1,42 @@
+[package]
+name = "lattice_db"
+version = "0.1.0"
+edition = "2024"
+authors = ["Craig Kelley <craig.alex.kelley@gmail.com>"]
+description = """
+A high-performance, embedded graph database optimized for fast set-based search.
+Built on Roaring Bitmaps and Redb for instant lookups and efficient storage.
+"""
+licence = "MIT"
+repository = "https://github.com/Craig-Kelley/lattice-db"
+readme = "README.md"
+keywords = [
+    "graph",
+    "database",
+    "search-engine", 
+    "lattice",
+    "embedded"
+]
+categories = [
+    "database-implementations",
+	"database",
+    "data-structures",
+    "algorithms",
+	"caching"
+]
+
+[dependencies]
+bincode = { version = "2.0.1", features = ["derive"] }
+rapidhash = "4.1.1"
+rayon = "1.11.0"
+redb = "3.1.0"
+roaring = "0.11.2"
+tempfile = "3.23.0"
+thiserror = "2.0.17"
+
+[dev-dependencies]
+criterion = "0.5"
+
+[[bench]]
+name = "benchmark"
+harness = false
