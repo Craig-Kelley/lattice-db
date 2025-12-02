@@ -1,5 +1,5 @@
 [package]
-name = "lattice_db"
+name = "lattice-db"
 version = "0.1.0"
 edition = "2024"
 authors = ["Craig Kelley <craig.alex.kelley@gmail.com>"]
